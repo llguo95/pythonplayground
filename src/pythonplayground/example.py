@@ -16,6 +16,6 @@ def add_one(number: int) -> int:
     return number + 1
 
 
-if __name__ == '__main__':
+if __name__ == '__main__': # pragma: no cover
     use_numpy = np.array()
     print('Hello World!')
