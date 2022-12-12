@@ -11,7 +11,7 @@ Welcome to pythonplayground's documentation!
    :caption: Contents:
 
 
-This is just to show if the documenation builds!
+This is just to show if the documenation builds!!
 
 Indices and tables
 ==================
