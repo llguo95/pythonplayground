@@ -12,9 +12,10 @@ def add_one(number: int) -> int:
     Returns
     -------
         Input number that is increased by one
-    """    
+    """
     return number + 1
 
 
 if __name__ == '__main__':
+    use_numpy = np.array()
     print('Hello World!')
