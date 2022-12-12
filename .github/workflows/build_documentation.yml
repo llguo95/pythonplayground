@@ -6,7 +6,7 @@ on:
       - main
 
 jobs:
-  build sphinx documentation:
+  build-sphinx-documentation:
     runs-on: ubuntu-latest
     steps:
     - name: Checkout
