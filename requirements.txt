@@ -1,4 +1,2 @@
 numpy >= 1.22
 scipy >= 1.9
-flake8
-pytest
