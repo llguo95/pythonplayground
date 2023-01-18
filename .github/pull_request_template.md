@@ -16,18 +16,9 @@ If any modification is required or requested by one of the reviewers during this
 ### 1. Pull request creation
   To be completed by **assignees**. These tasks must be completed before assigning the work to reviewers.
   - [ ] Complete the PR description and list of improvements and bugfixes
-  - [ ] Check that `LINKS` can be built with all compilers (use `make test_builds` to try all possibilities):
-    - [ ] *Single-scale* version: `gfortran`,  `ifort` and `nagfor`
-    - [ ] *Coupled multi-scale* version: `gfortran`,  `ifort`
-  - [ ] Check that the documentation can be successfully generated with `ford`
-  - [ ] Add input files to [LINKS' code review repository](https://github.com/CM2S/LINKS-CR) covering all new developments (e.g. new material models, new input file syntax etc). **However, make sure that the [cr](https://github.com/CM2S/LINKS-CR) submodule of the PR branch is still pointing to the same commit of master**
-  - [ ] If any modification is made to the input data files of single-scale or coupled-scale `LINKS` (add, delete or change keywords, change parameter definition, ...), update the documented input data files in the [Utilities repository](https://github.com/CM2S/Utilities/tree/master/datafiles)
-  - [ ] Update the [utilities](https://github.com/CM2S/Utilities) submodule in the PR branch to reflect changes in the previous topic. **Don't do it yet to the [cr](https://github.com/CM2S/LINKS-CR) submodule!** To do so, update the submodule with the eventual changes by running the following commands in the LINKS root directory:
-    ```
-    git add utilities
-    git commit -m 'Updated utilities submodule'
-    ```
 
+### 2. Automatic checks
+  - Make sure that the automated checks pass
 
 ### 2. Code Review
   **Reviewers** must carry the following tasks **individually**. If any point requires modifications, **undo all progress and return to step 1**.
